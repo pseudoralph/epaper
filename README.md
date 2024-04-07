@@ -1,17 +1,18 @@
-### Huzzah featherv2 && Waveshare 4.2v2 in e-paper
+## Huzzah Feather v2 && Waveshare 4.2v2 in e-paper
 
 [based on](https://files.waveshare.com/upload/7/71/E-Paper_code.zip)
 
-```
-Pin out
+#### Pinout
 
-wavshare    wire color    feather v2
-VCC         (gr)          3.3V
-GND         (br)          GND
-DIN         (bl)          MOSI (19)
-CLK         (yl)          SCK (5)
-CS          (or)          A8 (15)
-DC          (gr)          A10 (27)
-RST         (wh)          A0 (26)
-BUSY        (pur)         A1 (25)
+```
+WAVESHARE                   FEATHER
+---------------------------------------------
+VCC           (gry)         3.3V
+GND           (br)          GND
+DIN           (bl)          MOSI    (GPIO19)
+CLK/SCLK      (yl)          SCK     (GPIO5)
+CS            (or)          A8      (GPIO15)
+DC            (grn)         A10     (GPIO27)
+RST           (wh)          A0      (GPIO26)
+BUSY          (pur)         A1      (GPIO25)
 ```
